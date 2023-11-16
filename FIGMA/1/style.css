@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Intro';
+    src: url(IntroDemoCond-BlackCAPS.otf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(RobotoSlab-VariableFont_wght.ttf);
+}
+
+/* настройки логотипа */
+.logo_image_left_location {
+    width: 200px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+/* настройки кнопки корзины */
+.btn-cart {
+    width: 115px;
+    height: 38px;
+    margin-left: 80%;
+    border-radius: 100px;
+    border: none;
+    background-color: #5222D0;
+    color: white;
+    font-family: 'Intro';
+    font-size: 14px;
+}
+.btn-cart img {
+    padding-left: 5px;
+    width: 25%;
+    padding-bottom: 5px;
+}
+
+/* Настройка главного контента */
+ main {
+     margin-left: 6em;
+    justify-content: center;
+    width: 80%;
+ }
+
+ .col h1 {
+    font-size: 60px;
+    font-family: 'Intro';
+    color: black;
+    width: 80%;
+}
+
+.col p {
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Roboto';
+    width: 80%;
+}
+
+/* Настройка кнопки оплатить */
+.btn-card {
+    width: 250px;
+    height: 80px;
+    border-radius: 100px;
+    border: none;
+    background-color: #5222D0;
+    color: white;
+    font-family: 'Intro';
+    font-size: 30px;
+}
+
+.btn-card img {
+    padding-left: 10px;
+    width: 20%;
+    padding-bottom: 5px;
+}
+
+/* Настрйока главной картинки */
+.main_pic_vr {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding-top: 20px;
+}
+
+/* нижняя навигация(футер) */
+footer {
+    width: 100%;
+}
+
+.nav {
+    margin-left: 80px;
+    padding-bottom: 50px;
+    width: 35%;
+    padding-top: 20px;
+}
+
+.nav a {
+    color: #5222d0;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+

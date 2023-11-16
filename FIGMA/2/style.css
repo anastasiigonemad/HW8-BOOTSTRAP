@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Intro';
+    src: url(IntroDemoCond-BlackCAPS.otf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(RobotoSlab-VariableFont_wght.ttf);
+}
+
+header {
+    width: 100%;
+}
+/* настройки логотипа */
+.logo_image_left_location {
+    width: 200px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 75px;
+    
+}
+
+/* настройки кнопки корзины */
+.btn-cart {
+    width: 115px;
+    height: 38px;
+    margin-left: 80%;
+    border-radius: 100px;
+    border: none;
+    background-color: #5222D0;
+    color: white;
+    font-family: 'Intro';
+    font-size: 14px;
+}
+.btn-cart img {
+    padding-left: 5px;
+    width: 25%;
+    padding-bottom: 5px;
+}
+
+/* настройки главного контента страницы */
+main {
+    margin-left: 120px;
+    justify-content: center;
+    width: 85%;
+}
+main h1 {
+    margin-top: 80px;
+    font-family: 'Intro';
+    color: black;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.col img {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Intro';
+    font-size: 30px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    padding-bottom: 30px;
+    width: 80%;
+}
+
+/* настройка окна с электронной почтой */
+.mb-3 {
+    background-color: #EC615B;
+    width: 365px;
+    height: 233px;
+    padding: 10px;
+}
+
+.mb-3 h2 {
+    color: white;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.form-control {
+    width: 323px;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.mb-3 button {
+    width: 135px;
+    height: 38px;
+    border-radius: 100px;
+    border: none;
+    background-color: #5222D0;
+    color: white;
+    font-family: 'Intro';
+    font-size: 14px;
+}
+
+/* нижняя навигация(футер) */
+.nav {
+    margin-left: 115px;
+    padding-bottom: 50px;
+    width: 35%;
+}
+
+.nav a {
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: 300;
+}
